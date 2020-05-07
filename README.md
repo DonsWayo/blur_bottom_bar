@@ -1,14 +1,53 @@
-# blurbottombar
+# blur_bottom_bar
 
 Flutter blur bottom bar
 
+
+This is a recreation of the ios tab view with material desifn for android and ios
+
+| Preview |
+|---------|
+|![BlurBottomBar Gif](screenshot-ios.gif "BlurBottomBar")|
+
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+Add the dependency in `pubspec.yaml`:
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+  ...
+  blur_bottom_bar: ^1.0.0
+```
+
+## Basic Usage
+
+
+```dart
+return Scaffold(
+      appBar: AppBar(title: Text("Blur bar example")),
+      body: Stack(
+        children: <Widget>[
+          _widgetOptions.elementAt(_selectedIndex),
+          BlurBottomView(
+              bottomNavigationBarItems: const <BottomNavigationBarItem>[
+                BottomNavigationBarItem(
+                  icon: Icon(Icons.home),
+                  title: Text('Home'),
+                ),
+                BottomNavigationBarItem(
+                  icon: Icon(Icons.business),
+                  title: Text('Business'),
+                ),
+                BottomNavigationBarItem(
+                  icon: Icon(Icons.school),
+                  title: Text('School'),
+                )
+              ],
+              currentIndex: _selectedIndex,
+              onIndexChange: (val) {
+                _onItemTapped(val);
+              }),
+        ],
+      ),
+    );
+```
