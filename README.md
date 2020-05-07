@@ -5,9 +5,10 @@ Flutter blur bottom bar
 
 This is a recreation of the ios tab view with material desifn for android and ios
 
-| Preview |
-|---------|
-|![BlurBottomBar Gif](screenshot-ios.gif "BlurBottomBar")|
+| Preview || Preview |
+|---------||---------|
+|![BlurBottomBar Gif](screenshot-ios.gif "BlurBottomBar")|![BlurBottomBar Gif](screenshot-android.gif "BlurBottomBar")|
+
 
 ## Getting Started
 

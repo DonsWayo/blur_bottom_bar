@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [1.0.0] - First Release.
 
-* TODO: Describe initial release.
+* First release with the blur functionality on a material tab bar, working on android and ios
