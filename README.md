@@ -17,7 +17,7 @@ Add the dependency in `pubspec.yaml`:
 ```yaml
 dependencies:
   ...
-  blur_bottom_bar: ^1.0.0
+  blur_bottom_bar: ^1.0.1
 ```
 
 ## Basic Usage
