@@ -1,6 +1,6 @@
 {
-    "name": "demo",
-    "short_name": "demo",
+    "name": "example",
+    "short_name": "example",
     "start_url": ".",
     "display": "minimal-ui",
     "background_color": "#0175C2",
