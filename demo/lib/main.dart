@@ -79,7 +79,6 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      extendBodyBehindAppBar: true,
       appBar: AppBar(title: Text("Blur bar example")),
       body: Stack(
         children: <Widget>[
