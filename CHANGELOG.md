@@ -5,3 +5,8 @@
 ## [1.0.1] - Clean Release.
 
 * Update project info
+
+## [1.0.2] - Clean Release.
+
+* Added showSelectedLabels and showUnselectedLabels
+
