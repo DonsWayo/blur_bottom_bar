@@ -1,4 +1,3 @@
-
 import 'package:blur_bottom_bar/blur_bottom_bar.dart';
 import 'package:flutter/material.dart';
 
@@ -22,7 +21,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key? key, required this.title}) : super(key: key);
 
   final String title;
 
@@ -87,15 +86,15 @@ class _MyHomePageState extends State<MyHomePage> {
               bottomNavigationBarItems: const <BottomNavigationBarItem>[
                 BottomNavigationBarItem(
                   icon: Icon(Icons.home),
-                  title: Text('Home'),
+                  label: 'Home',
                 ),
                 BottomNavigationBarItem(
                   icon: Icon(Icons.business),
-                  title: Text('Business'),
+                  label: 'Business',
                 ),
                 BottomNavigationBarItem(
                   icon: Icon(Icons.school),
-                  title: Text('School'),
+                  label: 'School',
                 )
               ],
               currentIndex: _selectedIndex,
