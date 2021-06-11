@@ -10,3 +10,8 @@
 
 * Added showSelectedLabels and showUnselectedLabels
 
+## [1.0.3] - Upgrade null safety and update example.
+
+* Added support for null safety and upgrade the example app
+
+
